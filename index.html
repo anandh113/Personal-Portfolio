@@ -1,0 +1,1078 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anandh V | Software Developer Portfolio</title>
+
+    <!-- Website Favicon -->
+    <link rel="icon" type="image/png" href="assets/AA.png">
+    <link rel="apple-touch-icon" href="assets/AA.png">
+    <meta name="description"
+        content="Personal portfolio of Anandh V — Computer Science Engineering student at Paavai Engineering College. Software development in Java, full-stack web applications, and database management.">
+    <meta name="author" content="Anandh V">
+
+    <!-- Open Graph Metadata -->
+    <meta property="og:title" content="Anandh V | Computer Science Engineering Student | Portfolio">
+    <meta property="og:description"
+        content="Explore software engineering projects, backend applications, and verified technical credentials of Anandh V.">
+    <meta property="og:image" content="assets/profile.png">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://github.com/anandh113">
+
+    <!-- Twitter Card Metadata -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Anandh V | Computer Science Engineering Student | Portfolio">
+    <meta name="twitter:description"
+        content="Computer Science Engineering student focused on software development, Java programming, and full-stack web applications.">
+    <meta name="twitter:image" content="assets/profile.png">
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+
+    <!-- Font Awesome 6.4.0 & Google Fonts (Inter, Space Grotesk, Plus Jakarta Sans) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Accessibility Skip Link -->
+    <a href="#hero" class="skip-link">Skip to main content</a>
+
+    <!-- Mouse Trail & Radial Glow Follower -->
+    <div class="cursor-glow" id="cursorGlow"></div>
+
+    <!-- Animated Background Mesh, Orbs & Particles -->
+    <div class="bg-mesh">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+        <div id="particles-js"></div>
+    </div>
+
+    <!-- Navigation Header -->
+    <header>
+        <nav class="navbar glass-card" id="navbar" aria-label="Main Navigation">
+            <div class="nav-container">
+                <a href="#hero" class="logo-text" aria-label="Anandh V Homepage">Anandh<span>.V</span></a>
+                <ul class="nav-links" id="navLinks" role="menubar">
+                    <li role="none"><a href="#about" class="nav-link" role="menuitem">About</a></li>
+                    <li role="none"><a href="#skills" class="nav-link" role="menuitem">Skills</a></li>
+                    <li role="none"><a href="#projects" class="nav-link" role="menuitem">Projects</a></li>
+                    <li role="none"><a href="#experience" class="nav-link" role="menuitem">Experience</a></li>
+                    <li role="none"><a href="#education" class="nav-link" role="menuitem">Education</a></li>
+                    <li role="none"><a href="#certifications" class="nav-link" role="menuitem">Certifications</a></li>
+                    <li role="none"><a href="#contact" class="nav-link" role="menuitem">Contact</a></li>
+                </ul>
+                <div class="nav-actions">
+                    <button class="theme-toggle" id="themeToggle" aria-label="Toggle Dark and Light Theme"
+                        title="Toggle Theme">
+                        <i class="fa-solid fa-moon"></i>
+                    </button>
+                    <a href="assets/ANANDH V_CV.pdf" class="btn btn-primary magnetic-btn" download="ANANDH V_CV.pdf"
+                        title="Download Anandh's Resume">
+                        <i class="fa-solid fa-download"></i> Resume
+                    </a>
+                    <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Mobile Menu"
+                        aria-expanded="false" aria-controls="navLinks">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main id="mainContent">
+
+        <!-- Hero Section (Focused & Professional, No Duplicate Buttons) -->
+        <section id="hero" class="hero-section" aria-label="Introduction">
+            <div class="container hero-content">
+                <div class="hero-text-col">
+                    <div class="badge-pill">
+                        <span class="status-dot"></span> Available for Opportunities
+                    </div>
+                    <h1 class="hero-title">
+                        Hello, I'm <br>
+                        <span class="gradient-text-blue">Anandh V</span>
+                    </h1>
+                    <h2 class="hero-subtitle">
+                        Computer Science Engineering Student — <span id="typed-text"></span>
+                    </h2>
+                    <p class="hero-description">
+                        I'm a Computer Science Engineering student interested in software development and building
+                        practical applications. I enjoy working with Java, exploring full-stack technologies, and
+                        solving problems through hands-on projects.
+                    </p>
+                </div>
+                <div class="hero-visual-col">
+                    <div class="hero-image-container glass-card" data-tilt data-tilt-max="10">
+                        <img src="assets/profile.png" alt="Anandh V — Computer Science Engineering Student"
+                            class="profile-img" width="320" height="320">
+                        <div class="floating-icon icon-1" title="Java Development"><i class="fa-brands fa-java"
+                                style="color: #f89820;"></i></div>
+                        <div class="floating-icon icon-2" title="JavaScript & Web Technologies"><i
+                                class="fa-brands fa-js" style="color: #f7df1e;"></i></div>
+                        <div class="floating-icon icon-3" title="Database Systems"><i class="fa-solid fa-database"
+                                style="color: #38bdf8;"></i></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section & Areas of Focus -->
+        <section id="about" class="section-padding" aria-label="About Me">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">01. ABOUT ME</span>
+                    <h2 class="section-title">Background & Areas of Focus</h2>
+                    <p class="section-subtitle">Understanding computer science fundamentals and developing practical
+                        software applications.</p>
+                </div>
+
+                <!-- Bento Grid: Bio, Academic CGPA, and Areas of Focus in a Single Card with Bullets -->
+                <div class="bento-grid">
+                    <div class="glass-card bento-item bio-card">
+                        <h3>About Me</h3>
+                        <p>
+                            I am a Computer Science Engineering student at <strong>Paavai Engineering College</strong>
+                            (Autonomous, affiliated with Anna University). My academic and project work centers on
+                            understanding core software development principles, engineering reliable application
+                            backends, and building usable web applications.
+                        </p>
+                        <p>
+                            I focus on learning through hands-on implementation — whether building responsive web
+                            applications, modeling relational databases, or exploring mobile sensor integration. I value
+                            clean code, systematic problem solving, and continuous learning.
+                        </p>
+                    </div>
+
+                    <div class="glass-card bento-item stat-card">
+                        <div class="stat-number gradient-text-cyan">8.05</div>
+                        <div class="stat-label">Academic CGPA (Out of 10.0)</div>
+                        <span style="font-size: 0.82rem; color: var(--text-secondary); margin-top: 6px;">Paavai
+                            Engineering College</span>
+                    </div>
+
+                    <!-- Single Card with Bullets for Areas of Focus -->
+                    <div class="glass-card bento-item focus-card">
+                        <h3><i class="fa-solid fa-compass gradient-text-cyan"></i> Areas of Focus</h3>
+                        <ul class="check-list">
+                            <li>
+                                <i class="fa-solid fa-check gradient-text-cyan"></i>
+                                <div><strong>Software Development</strong> </div>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check gradient-text-cyan"></i>
+                                <div><strong>Java & OOP</strong></div>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check gradient-text-cyan"></i>
+                                <div><strong>Full-Stack Development</strong></div>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check gradient-text-cyan"></i>
+                                <div><strong>Frontend Development</strong></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Technical Arsenal (Phase 5: Preserved Content) -->
+        <section id="skills" class="section-padding" aria-label="Technical Arsenal">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">02. EXPERTISE</span>
+                    <h2 class="section-title">Technical Arsenal</h2>
+                    <p class="section-subtitle">A breakdown of programming languages, frameworks, databases, and
+                        engineering tools.</p>
+                </div>
+                <div class="grid grid-3">
+
+                    <!-- Programming Languages -->
+                    <div class="glass-card skill-card">
+                        <div class="skill-card-header">
+                            <i class="fa-solid fa-code skill-icon gradient-text-blue"></i>
+                            <h3>Programming Languages</h3>
+                        </div>
+                        <p>Core programming fundamentals, object-oriented design, and algorithms.</p>
+                        <div class="tech-tags">
+                            <span class="tag"><i class="fa-brands fa-java"></i> Java</span>
+                            <span class="tag"><i class="fa-brands fa-python"></i> Python</span>
+                            <span class="tag"><i class="fa-solid fa-c"></i> C</span>
+                            <span class="tag"><i class="fa-brands fa-js"></i> JavaScript</span>
+                        </div>
+                    </div>
+
+                    <!-- Frontend Engineering -->
+                    <div class="glass-card skill-card">
+                        <div class="skill-card-header">
+                            <i class="fa-solid fa-layer-group skill-icon gradient-text-cyan"></i>
+                            <h3>Frontend Engineering</h3>
+                        </div>
+                        <p>Constructing responsive, accessible, and structured web interfaces.</p>
+                        <div class="tech-tags">
+                            <span class="tag"><i class="fa-brands fa-react"></i> React 19</span>
+                            <span class="tag"><i class="fa-brands fa-html5"></i> HTML5 / CSS3</span>
+                            <span class="tag"><i class="fa-solid fa-wind"></i> Tailwind CSS</span>
+                        </div>
+                    </div>
+
+                    <!-- Backend Engineering -->
+                    <div class="glass-card skill-card">
+                        <div class="skill-card-header">
+                            <i class="fa-solid fa-server skill-icon gradient-text-purple"></i>
+                            <h3>Backend & APIs</h3>
+                        </div>
+                        <p>Developing RESTful web services, auth gateways, and server workflows.</p>
+                        <div class="tech-tags">
+                            <span class="tag"><i class="fa-brands fa-node-js"></i> Node.js</span>
+                            <span class="tag"><i class="fa-solid fa-network-wired"></i> Express.js</span>
+                            <span class="tag"><i class="fa-solid fa-key"></i> JWT Authentication</span>
+                        </div>
+                    </div>
+
+                    <!-- Databases -->
+                    <div class="glass-card skill-card">
+                        <div class="skill-card-header">
+                            <i class="fa-solid fa-database skill-icon gradient-text-amber"></i>
+                            <h3>Databases & Storage</h3>
+                        </div>
+                        <p>Designing normalized schemas, connection pooling, and structured queries.</p>
+                        <div class="tech-tags">
+                            <span class="tag"><i class="fa-solid fa-database"></i> MySQL</span>
+                            <span class="tag"><i class="fa-solid fa-table"></i> PostgreSQL</span>
+                            <span class="tag"><i class="fa-solid fa-fire"></i> Cloud Firestore</span>
+                        </div>
+                    </div>
+
+                    <!-- Mobile Development -->
+                    <div class="glass-card skill-card">
+                        <div class="skill-card-header">
+                            <i class="fa-solid fa-mobile-screen-button skill-icon gradient-text-cyan"></i>
+                            <h3>Mobile Development</h3>
+                        </div>
+                        <p>Cross-platform mobile applications with Mobile sensor integration.</p>
+                        <div class="tech-tags">
+                            <span class="tag"><i class="fa-solid fa-feather"></i> Flutter</span>
+                            <span class="tag"><i class="fa-solid fa-code"></i> Dart</span>
+                            <span class="tag"><i class="fa-brands fa-android"></i> Android SDK</span>
+                            <span class="tag"><i class="fa-solid fa-location-crosshairs"></i> GPS Sensor</span>
+                        </div>
+                    </div>
+
+                    <!-- AI & Cloud Tooling -->
+                    <div class="glass-card skill-card">
+                        <div class="skill-card-header">
+                            <i class="fa-solid fa-screwdriver-wrench skill-icon gradient-text-blue"></i>
+                            <h3>AI, Cloud & Tools</h3>
+                        </div>
+                        <p>Modern developer ecosystems, cloud deployment, and AI inference APIs.</p>
+                        <div class="tech-tags">
+                            <span class="tag"><i class="fa-solid fa-brain"></i> Google Gemini API</span>
+                            <span class="tag"><i class="fa-brands fa-git-alt"></i> Git & GitHub</span>
+                            <span class="tag"><i class="fa-solid fa-bolt"></i> Vite & Supabase</span>
+                            <span class="tag"><i class="fa-solid fa-cloud"></i> Cloudinary</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Work (Phase 6: Compact 2-Column Desktop Grid) -->
+        <section id="projects" class="section-padding" aria-label="Featured Projects">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">03. PROJECTS</span>
+                    <h2 class="section-title">Software Projects & Applications</h2>
+                    <p class="section-subtitle">Seven verified software systems spanning cloud applications, AI
+                        assistance, mobile sensing, and practical tools.</p>
+                </div>
+
+                <!-- CATEGORY A: MAIN SOFTWARE APPLICATIONS -->
+                <div class="project-category-header">
+                    <h3 class="project-category-title gradient-text-blue"><i class="fa-solid fa-laptop-code"></i> Main
+                        Software Applications</h3>
+                    <div class="project-category-line"></div>
+                </div>
+
+                <div class="project-grid-2col">
+
+                    <!-- PROJECT 01: Gallery Cloud -->
+                    <article class="glass-card project-card-compact">
+                        <div class="project-thumb-wrapper">
+                            <span class="badge-category">Cloud Media</span>
+                            <div class="project-thumb-graphic">
+                                <i class="fa-solid fa-cloud-arrow-up" style="color: var(--royal-blue);"></i>
+                            </div>
+                        </div>
+                        <div class="project-card-body">
+                            <h3 class="project-card-title">Gallery Cloud</h3>
+                            <p class="project-card-desc">
+                                A high-performance cloud photo gallery and media management web application with
+                                user-isolated cloud storage and client-side binary EXIF metadata parsing.
+                            </p>
+                            <div class="tech-tags" style="margin-bottom: 14px;">
+                                <span class="tag">React 19</span>
+                                <span class="tag">Firebase Auth</span>
+                                <span class="tag">Cloud Firestore</span>
+                                <span class="tag">Cloudinary</span>
+                            </div>
+                            <ul class="project-features-list">
+                                <li><i class="fa-solid fa-check"></i> Pure-JS client-side binary TIFF/IFD EXIF metadata
+                                    extraction</li>
+                                <li><i class="fa-solid fa-check"></i> Two-phase Recycle Bin with soft-deletes and safe
+                                    recovery</li>
+                                <li><i class="fa-solid fa-check"></i> Chronological timeline grouping and 'On This Day'
+                                    memories</li>
+                            </ul>
+                            <div class="project-card-footer">
+                                <button class="btn btn-primary btn-sm" data-project-target="gallerycloud"><i
+                                        class="fa-solid fa-circle-info"></i> View Details</button>
+                                <a href="https://github.com/anandh113/GalleryCloud" target="_blank" rel="noopener"
+                                    class="btn btn-glass btn-sm"><i class="fa-brands fa-github"></i> Repository</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- PROJECT 02: KarigarAI -->
+                    <article class="glass-card project-card-compact">
+                        <div class="project-thumb-wrapper">
+                            <span class="badge-category">Multimodal AI</span>
+                            <img src="assets/karigarai_hero.jpg" alt="KarigarAI Platform Preview"
+                                class="project-thumb-img" loading="lazy">
+                        </div>
+                        <div class="project-card-body">
+                            <h3 class="project-card-title">KarigarAI</h3>
+                            <p class="project-card-desc">
+                                AI-powered business management application assisting traditional artisans in converting
+                                smartphone product photos into structured digital catalogs with pricing guidance.
+                            </p>
+                            <div class="tech-tags" style="margin-bottom: 14px;">
+                                <span class="tag">React 19</span>
+
+                                <span class="tag">Node.js / Express</span>
+                                <span class="tag">MySQL</span>
+                            </div>
+                            <ul class="project-features-list">
+                                <li><i class="fa-solid fa-check"></i> Multimodal AI catalog generator using Google
+                                    Gemini Vision API</li>
+                                <li><i class="fa-solid fa-check"></i> Smart pricing advisor based on crafting labor
+                                    hours and material costs</li>
+                                <li><i class="fa-solid fa-check"></i> Role-based portals for artisans and administrative
+                                    catalog management</li>
+                            </ul>
+                            <div class="project-card-footer">
+                                <button class="btn btn-primary btn-sm" data-project-target="karigarai"><i
+                                        class="fa-solid fa-circle-info"></i> View Details</button>
+                                <a href="https://github.com/anandh113/KarigarAI" target="_blank" rel="noopener"
+                                    class="btn btn-glass btn-sm"><i class="fa-brands fa-github"></i> Repository</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- PROJECT 03: Hostel Absence -->
+                    <article class="glass-card project-card-compact">
+                        <div class="project-thumb-wrapper">
+                            <span class="badge-category">Full-Stack Application</span>
+                            <div class="project-thumb-graphic">
+                                <i class="fa-solid fa-building-user" style="color: var(--electric-cyan);"></i>
+                            </div>
+                        </div>
+                        <div class="project-card-body">
+                            <h3 class="project-card-title">Hostel Absence Management</h3>
+                            <p class="project-card-desc">
+                                A role-based web application connecting classroom attendance marking with hostel warden
+                                verification to identify unauthorized hostel student absences in real time.
+                            </p>
+                            <div class="tech-tags" style="margin-bottom: 14px;">
+                                <span class="tag">React 18</span>
+                                <span class="tag">React Router</span>
+                                <span class="tag">Chart.js</span>
+                                <span class="tag">EmailJS</span>
+                            </div>
+                            <ul class="project-features-list">
+                                <li><i class="fa-solid fa-check"></i> 4 role-guarded portals (Admin, Faculty, HOD, and
+                                    Warden)</li>
+                                <li><i class="fa-solid fa-check"></i> Real-time absence alert queue for hostel students
+                                    marked absent in class</li>
+                                <li><i class="fa-solid fa-check"></i> Physical presence verification workflow with
+                                    EmailJS parental alerts</li>
+                            </ul>
+                            <div class="project-card-footer">
+                                <button class="btn btn-primary btn-sm" data-project-target="hostelabsence"><i
+                                        class="fa-solid fa-circle-info"></i> View Details</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- PROJECT 04: SafeNav -->
+                    <article class="glass-card project-card-compact">
+                        <div class="project-thumb-wrapper">
+                            <span class="badge-category">Mobile Sensing</span>
+                            <img src="assets/safenav_icon.png" alt="SafeNav Application Dashboard Preview"
+                                class="project-thumb-img" loading="lazy">
+                        </div>
+                        <div class="project-card-body">
+                            <h3 class="project-card-title">SafeNav — Collision Warning System</h3>
+                            <p class="project-card-desc">
+                                Low-cost vehicle collision warning system using smartphone hardware sensors and
+                                WebSocket V2V telemetry to compute relative motion and issue multi-sensory alerts.
+                            </p>
+                            <div class="tech-tags" style="margin-bottom: 14px;">
+                                <span class="tag">Flutter</span>
+                                <span class="tag">Dart</span>
+                                <span class="tag">Sensor APIs</span>
+                                <span class="tag">WebSocket V2V</span>
+                            </div>
+                            <ul class="project-features-list">
+                                <li><i class="fa-solid fa-check"></i> Complementary filtering, IIR gravity separation,
+                                    and dead reckoning</li>
+                                <li><i class="fa-solid fa-check"></i> Time-to-Collision (TTC) and Distance at Closest
+                                    Approach (DCA) kinematics</li>
+                                <li><i class="fa-solid fa-check"></i> Tactical 360° proximity display with multi-modal
+                                    audio, visual, and vibration alerts</li>
+                            </ul>
+                            <div class="project-card-footer">
+                                <button class="btn btn-primary btn-sm" data-project-target="safenav"><i
+                                        class="fa-solid fa-circle-info"></i> View Details</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- PROJECT 05: EcoFit -->
+                    <article class="glass-card project-card-compact">
+                        <div class="project-thumb-wrapper">
+                            <span class="badge-category">Client Project</span>
+                            <img src="assets/logo.png" alt="EcoFit Sustainable Materials Preview"
+                                class="project-thumb-img" loading="lazy">
+                        </div>
+                        <div class="project-card-body">
+                            <h3 class="project-card-title">EcoFit — Sustainable Materials</h3>
+                            <p class="project-card-desc">
+                                Client Project — Designed and developed a website showcasing sustainable construction
+                                materials and eco-friendly products.
+                            </p>
+                            <div class="tech-tags" style="margin-bottom: 14px;">
+                                <span class="tag">HTML5</span>
+                                <span class="tag">CSS3</span>
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">Client Project</span>
+                            </div>
+                            <ul class="project-features-list">
+                                <li><i class="fa-solid fa-check"></i> Client-requested digital presence for recycled
+                                    eco-friendly construction products</li>
+                                <li><i class="fa-solid fa-check"></i> Interactive product catalog with material
+                                    specifications and application details</li>
+                                <li><i class="fa-solid fa-check"></i> Interactive FAQ accordion and direct client
+                                    inquiry contact form</li>
+                            </ul>
+                            <div class="project-card-footer">
+                                <button class="btn btn-primary btn-sm" data-project-target="ecofit"><i
+                                        class="fa-solid fa-circle-info"></i> View Details</button>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+
+                <!-- CATEGORY B: WEBSITES AND PRACTICAL TOOLS -->
+                <div class="project-category-header" style="margin-top: 50px;">
+                    <h3 class="project-category-title gradient-text-cyan"><i class="fa-solid fa-globe"></i> Websites and
+                        Practical Tools</h3>
+                    <div class="project-category-line"></div>
+                </div>
+
+                <div class="project-grid-2col">
+
+                    <!-- PROJECT 06: SQL Study Tracker -->
+                    <article class="glass-card project-card-compact">
+                        <div class="project-thumb-wrapper">
+                            <span class="badge-category">Learning Tool</span>
+                            <img src="assets/sql_tracker_hero.png" alt="SQL Study Tracker Platform Preview"
+                                class="project-thumb-img" loading="lazy">
+                        </div>
+                        <div class="project-card-body">
+                            <h3 class="project-card-title">SQL Study Tracker</h3>
+                            <p class="project-card-desc">
+                                A structured 7-day SQL learning schedule covering 138 curated topics for 4 engineering
+                                peers with server-enforced sequential unlock and dynamic re-locking logic.
+                            </p>
+                            <div class="tech-tags" style="margin-bottom: 14px;">
+                                <span class="tag">React 19</span>
+
+                                <span class="tag">Node.js / Express</span>
+                                <span class="tag">MySQL Pool</span>
+                            </div>
+                            <ul class="project-features-list">
+                                <li><i class="fa-solid fa-check"></i> Server-authoritative progress derivations computed
+                                    directly in MySQL</li>
+                                <li><i class="fa-solid fa-check"></i> Sequential day access: Day N unlocks only when Day
+                                    N-1 is complete</li>
+                                <li><i class="fa-solid fa-check"></i> Dynamic re-locking upon unchecking to enforce
+                                    thorough concept mastery</li>
+                            </ul>
+                            <div class="project-card-footer">
+                                <button class="btn btn-primary btn-sm" data-project-target="sqltracker"><i
+                                        class="fa-solid fa-circle-info"></i> View Details</button>
+                                <a href="https://github.com/anandh113/SQL-PROGRESS-TRACKER" target="_blank"
+                                    rel="noopener" class="btn btn-glass btn-sm"><i class="fa-brands fa-github"></i>
+                                    Repository</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- PROJECT 07: 24-Hour Portfolio Battle -->
+                    <article class="glass-card project-card-compact">
+                        <div class="project-thumb-wrapper">
+                            <span class="badge-category">Interactive WebGL</span>
+                            <div class="project-thumb-graphic">
+                                <i class="fa-solid fa-trophy" style="color: var(--amber);"></i>
+                            </div>
+                        </div>
+                        <div class="project-card-body">
+                            <h3 class="project-card-title">24-Hour Portfolio Battle</h3>
+                            <p class="project-card-desc">
+                                Live challenge platform tracking 3 developers building portfolios within a shared
+                                24-hour sprint. Features Three.js 3D visuals and atomic server-side ranking.
+                            </p>
+                            <div class="tech-tags" style="margin-bottom: 14px;">
+                                <span class="tag">React 19</span>
+
+                                <span class="tag">Supabase / Postgres</span>
+                            </div>
+                            <ul class="project-features-list">
+                                <li><i class="fa-solid fa-check"></i> Authorized admin launch secret verifying single
+                                    challenge start</li>
+                                <li><i class="fa-solid fa-check"></i> Authoritative UTC server deadline surviving client
+                                    clock manipulation</li>
+                                <li><i class="fa-solid fa-check"></i> Atomic PostgreSQL rankings based on verified
+                                    database commit order</li>
+                            </ul>
+                            <div class="project-card-footer">
+                                <button class="btn btn-primary btn-sm" data-project-target="portfoliobattle"><i
+                                        class="fa-solid fa-circle-info"></i> View Details</button>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Work Experience Timeline (Phase 7: Verified Internships, RYLA Removed) -->
+        <section id="experience" class="section-padding" aria-label="Work Experience and Internships">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">04. EXPERIENCE</span>
+                    <h2 class="section-title">Internships & Practical Training</h2>
+                    <p class="section-subtitle">Verified industrial exposure, large-scale enterprise workflows, and
+                        cloud engineering programs.</p>
+                </div>
+
+                <div class="timeline">
+                    <!-- NLC India Limited -->
+                    <div class="timeline-item glass-card">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>NLC India Limited, Neyveli</h3>
+                                <p class="timeline-role">Full Stack Web Development Intern — Enterprise Systems &
+                                    Workflows</p>
+                            </div>
+                            <span class="timeline-date"><time datetime="2025-06-23">June 23, 2025</time> – <time
+                                    datetime="2025-07-07">July 7, 2025</time></span>
+                        </div>
+                        <ul class="timeline-bullets">
+                            <li>Gained industrial exposure to enterprise IT operations, database administration, and
+                                server workflows at a Navratna Public Sector Enterprise.</li>
+                            <li>Observed backend relational database query optimizations and reliability protocols
+                                across internal web applications.</li>
+                            <li>Engaged with engineering mentors to examine enterprise full-stack development patterns
+                                and data security procedures.</li>
+                        </ul>
+                    </div>
+
+                    <!-- AICTE EduSkills -->
+                    <div class="timeline-item glass-card">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>AICTE EduSkills Foundation</h3>
+                                <p class="timeline-role">Software & Cloud Architecture Intern — Cloud Computing &
+                                    Full-Stack Systems</p>
+                            </div>
+                            <span class="timeline-date"><time datetime="2025">2025</time></span>
+                        </div>
+                        <ul class="timeline-bullets">
+                            <li>Completed technical training modules covering microservices, cloud patterns, and
+                                full-stack development.</li>
+                            <li>Constructed backend services and integrated structured RESTful API endpoints adhering to
+                                software engineering practices.</li>
+                            <li>Earned verified institutional certification in cloud infrastructure fundamentals.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Academic Education Timeline -->
+        <section id="education" class="section-padding" aria-label="Academic Education">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">05. EDUCATION</span>
+                    <h2 class="section-title">Academic Background</h2>
+                    <p class="section-subtitle">Formal education in computer science, engineering, and natural sciences.
+                    </p>
+                </div>
+
+                <div class="timeline">
+                    <!-- Paavai Engineering College -->
+                    <div class="timeline-item glass-card">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>Paavai Engineering College, Namakkal</h3>
+                                <p class="timeline-role">Bachelor of Engineering in Computer Science and Engineering
+                                    (B.E. CSE)</p>
+                            </div>
+                            <span class="timeline-date"><time datetime="2023">2023</time> – <time datetime="2027">2027
+                                    (Pursuing)</time></span>
+                        </div>
+                        <ul class="timeline-bullets">
+                            <li><strong>Cumulative Grade Point Average (CGPA):</strong> 8.05 / 10.0</li>
+                            <li>Autonomous institution affiliated with Anna University, Chennai.</li>
+                            <li>Core Coursework: Data Structures & Algorithms, Object-Oriented Programming (Java),
+                                Database Management Systems (DBMS), Operating Systems, Computer Networks, Software
+                                Engineering.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Higher Secondary (12th) -->
+                    <div class="timeline-item glass-card">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>Government Model School, Nagapattinam</h3>
+                                <p class="timeline-role">Higher Secondary Certificate (HSC — 12th Grade)</p>
+                            </div>
+                            <span class="timeline-date"><time datetime="2023">Completed 2023</time></span>
+                        </div>
+                        <ul class="timeline-bullets">
+                            <li><strong>Academic Performance:</strong> 74%</li>
+                            <li>Major subjects: Mathematics, Physics, Chemistry, and Computer Science.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Secondary School (10th) -->
+                    <div class="timeline-item glass-card">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>Government Higher Secondary School, Kariyapattinam</h3>
+                                <p class="timeline-role">Secondary School Leaving Certificate (SSLC — 10th Grade)</p>
+                            </div>
+                            <span class="timeline-date"><time datetime="2021">Completed 2021</time></span>
+                        </div>
+                        <ul class="timeline-bullets">
+                            <li><strong>Academic Performance:</strong> 99%</li>
+                            <li>Foundational coursework in Mathematics, Science, and Social Studies.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Verified Certifications Section (Phase 8: Image & PDF Categories) -->
+        <section id="certifications" class="section-padding" aria-label="Certifications">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">06. CERTIFICATIONS</span>
+                    <h2 class="section-title">Verified Credentials</h2>
+                    <p class="section-subtitle">Verified certificates categorized into internships, technical workshops,
+                        and online credentials.</p>
+                </div>
+
+                <!-- Category 1: Internships & Training -->
+                <h3 class="cert-category-heading gradient-text-blue"><i class="fa-solid fa-graduation-cap"></i>
+                    Internships & Training Credentials</h3>
+                <div class="grid grid-3" style="margin-bottom: 30px;">
+
+                    <!-- NLC Internship -->
+                    <div class="glass-card cert-card" data-tilt>
+                        <div class="cert-header">
+                            <i class="fa-solid fa-building-circle-check cert-icon gradient-text-blue"></i>
+                            <span class="cert-format-badge image">Image / JPG</span>
+                        </div>
+                        <h4 class="cert-title">Full Stack Web Development Internship</h4>
+                        <p class="cert-issuer">NLC India Limited, Neyveli</p>
+                        <p class="cert-date"><time datetime="2025-07">July 2025</time></p>
+                        <div class="cert-actions">
+                            <button class="btn btn-outline btn-sm full-width" data-cert-view
+                                data-cert-img="assets/certificates/nlc_internship.jpg"
+                                data-cert-title="NLC India Limited Internship" data-cert-issuer="NLC India Limited"><i
+                                    class="fa-solid fa-expand"></i> Preview</button>
+                            <a href="assets/certificates/nlc_internship.jpg" download class="btn btn-glass btn-sm"
+                                title="Download Image"><i class="fa-solid fa-download"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- AICTE EduSkills -->
+                    <div class="glass-card cert-card" data-tilt>
+                        <div class="cert-header">
+                            <i class="fa-solid fa-cloud-arrow-up cert-icon gradient-text-cyan"></i>
+                            <span class="cert-format-badge image">Image / PNG</span>
+                        </div>
+                        <h4 class="cert-title">Cloud Architecture & Full-Stack Development</h4>
+                        <p class="cert-issuer">AICTE EduSkills Foundation</p>
+                        <p class="cert-date"><time datetime="2025">2025</time></p>
+                        <div class="cert-actions">
+                            <button class="btn btn-outline btn-sm full-width" data-cert-view
+                                data-cert-img="assets/certificates/eduskill_internship.png"
+                                data-cert-title="AICTE EduSkills Cloud Internship" data-cert-issuer="AICTE EduSkills"><i
+                                    class="fa-solid fa-expand"></i> Preview</button>
+                            <a href="assets/certificates/eduskill_internship.pdf" target="_blank" rel="noopener"
+                                class="btn btn-glass btn-sm" title="View PDF"><i class="fa-solid fa-file-pdf"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Category 2: Technical Workshops -->
+                <h3 class="cert-category-heading gradient-text-cyan"><i class="fa-solid fa-satellite"></i> Technical
+                    Workshops & Symposiums</h3>
+                <div class="grid grid-3" style="margin-bottom: 30px;">
+
+                    <!-- ISRO Workshop -->
+                    <div class="glass-card cert-card" data-tilt>
+                        <div class="cert-header">
+                            <i class="fa-solid fa-shuttle-space cert-icon gradient-text-blue"></i>
+                            <span class="cert-format-badge image">Image / JPG</span>
+                        </div>
+                        <h4 class="cert-title">Space Technology & Remote Sensing</h4>
+                        <p class="cert-issuer">ISRO Technical Workshop</p>
+                        <p class="cert-date"><time datetime="2024">Verified 2024</time></p>
+                        <div class="cert-actions">
+                            <button class="btn btn-outline btn-sm full-width" data-cert-view
+                                data-cert-img="assets/certificates/isro_workshop.jpg"
+                                data-cert-title="ISRO Technical Workshop" data-cert-issuer="ISRO"><i
+                                    class="fa-solid fa-expand"></i> Preview</button>
+                            <a href="assets/certificates/isro_workshop.jpg" download class="btn btn-glass btn-sm"
+                                title="Download Image"><i class="fa-solid fa-download"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- CIT AI Symposium -->
+                    <div class="glass-card cert-card" data-tilt>
+                        <div class="cert-header">
+                            <i class="fa-solid fa-robot cert-icon gradient-text-purple"></i>
+                            <span class="cert-format-badge image">Image / JPG</span>
+                        </div>
+                        <h4 class="cert-title">Artificial Intelligence Technical Symposium</h4>
+                        <p class="cert-issuer">Coimbatore Institute of Technology (CIT)</p>
+                        <p class="cert-date"><time datetime="2024">Verified 2024</time></p>
+                        <div class="cert-actions">
+                            <button class="btn btn-outline btn-sm full-width" data-cert-view
+                                data-cert-img="assets/certificates/cit_ai_symposium.jpg"
+                                data-cert-title="CIT Artificial Intelligence Symposium" data-cert-issuer="CIT"><i
+                                    class="fa-solid fa-expand"></i> Preview</button>
+                            <a href="assets/certificates/cit_ai_symposium.jpg" download class="btn btn-glass btn-sm"
+                                title="Download Image"><i class="fa-solid fa-download"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- CIT Cyber Security Symposium -->
+                    <div class="glass-card cert-card" data-tilt>
+                        <div class="cert-header">
+                            <i class="fa-solid fa-shield-halved cert-icon gradient-text-amber"></i>
+                            <span class="cert-format-badge image">Image / JPG</span>
+                        </div>
+                        <h4 class="cert-title">Cyber Security Technical Symposium</h4>
+                        <p class="cert-issuer">Coimbatore Institute of Technology (CIT)</p>
+                        <p class="cert-date"><time datetime="2024">Verified 2024</time></p>
+                        <div class="cert-actions">
+                            <button class="btn btn-outline btn-sm full-width" data-cert-view
+                                data-cert-img="assets/certificates/cit_cyber_symposium.jpg"
+                                data-cert-title="CIT Cyber Security Symposium" data-cert-issuer="CIT"><i
+                                    class="fa-solid fa-expand"></i> Preview</button>
+                            <a href="assets/certificates/cit_cyber_symposium.jpg" download class="btn btn-glass btn-sm"
+                                title="Download Image"><i class="fa-solid fa-download"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Category 3: Online Certifications -->
+                <h3 class="cert-category-heading gradient-text-amber"><i class="fa-solid fa-certificate"></i> Online
+                    Certifications & Programs</h3>
+                <div class="grid grid-3">
+
+                    <!-- Coursera AI Design -->
+                    <div class="glass-card cert-card" data-tilt>
+                        <div class="cert-header">
+                            <i class="fa-solid fa-palette cert-icon gradient-text-purple"></i>
+                            <span class="cert-format-badge pdf">Document / PDF</span>
+                        </div>
+                        <h4 class="cert-title">Design Fundamentals with AI</h4>
+                        <p class="cert-issuer">Coursera</p>
+                        <p class="cert-date"><time datetime="2025-09">September 2025</time></p>
+                        <div class="cert-actions">
+                            <a href="assets/certificates/coursera_ai_design.pdf" target="_blank" rel="noopener"
+                                class="btn btn-outline btn-sm full-width"><i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i> View PDF</a>
+                            <a href="assets/certificates/coursera_ai_design.pdf" download class="btn btn-glass btn-sm"
+                                title="Download PDF"><i class="fa-solid fa-download"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- EduPyramids HTML -->
+                    <div class="glass-card cert-card" data-tilt>
+                        <div class="cert-header">
+                            <i class="fa-brands fa-html5 cert-icon gradient-text-amber"></i>
+                            <span class="cert-format-badge pdf">Document / PDF</span>
+                        </div>
+                        <h4 class="cert-title">HTML Web Development Training</h4>
+                        <p class="cert-issuer">EduPyramids</p>
+                        <p class="cert-date"><time datetime="2025-06">June 2025</time></p>
+                        <div class="cert-actions">
+                            <a href="assets/certificates/html_training.pdf" target="_blank" rel="noopener"
+                                class="btn btn-outline btn-sm full-width"><i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i> View PDF</a>
+                            <a href="assets/certificates/html_training.pdf" download class="btn btn-glass btn-sm"
+                                title="Download PDF"><i class="fa-solid fa-download"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- MongoDB Developer -->
+                    <div class="glass-card cert-card" data-tilt>
+                        <div class="cert-header">
+                            <i class="fa-solid fa-leaf cert-icon gradient-text-cyan"></i>
+                            <span class="cert-format-badge pdf">Document / PDF</span>
+                        </div>
+                        <h4 class="cert-title">MongoDB Certified Developer & Badge</h4>
+                        <p class="cert-issuer">MongoDB Inc.</p>
+                        <p class="cert-date"><time datetime="2025-06">June 2025</time></p>
+                        <div class="cert-actions">
+                            <a href="assets/certificates/mongodb_certification.pdf" target="_blank" rel="noopener"
+                                class="btn btn-outline btn-sm full-width"><i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i> View PDF</a>
+                            <a href="assets/certificates/mongodb_certification.pdf" download
+                                class="btn btn-glass btn-sm" title="Download PDF"><i
+                                    class="fa-solid fa-download"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- IBM Certification -->
+                    <div class="glass-card cert-card" data-tilt>
+                        <div class="cert-header">
+                            <i class="fa-solid fa-server cert-icon gradient-text-blue"></i>
+                            <span class="cert-format-badge pdf">Document / PDF</span>
+                        </div>
+                        <h4 class="cert-title">Software Engineering Program</h4>
+                        <p class="cert-issuer">IBM</p>
+                        <p class="cert-date"><time datetime="2026-02">Verified 2026</time></p>
+                        <div class="cert-actions">
+                            <a href="assets/certificates/ibm_certification.pdf" target="_blank" rel="noopener"
+                                class="btn btn-outline btn-sm full-width"><i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i> View PDF</a>
+                            <a href="assets/certificates/ibm_certification.pdf" download class="btn btn-glass btn-sm"
+                                title="Download PDF"><i class="fa-solid fa-download"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Contact Section (Phase 10: No Phone, High Contrast Icons, Accurate Form) -->
+        <section id="contact" class="section-padding" aria-label="Contact Anandh V">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">07. GET IN TOUCH</span>
+                    <h2 class="section-title">Contact & Communication</h2>
+                    <p class="section-subtitle">Open for Software Engineering internships, entry-level developer roles,
+                        and technical discussions.</p>
+                </div>
+                <div class="grid grid-2">
+
+                    <div class="glass-card contact-info">
+                        <h3>Contact Information</h3>
+                        <p>Feel free to reach out regarding engineering opportunities, software development internships,
+                            or project collaborations.</p>
+
+                        <!-- Verified Email -->
+                        <div class="info-item">
+                            <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+                            <a href="mailto:anandhvenkatesh123@gmail.com"
+                                class="contact-link">anandhvenkatesh123@gmail.com</a>
+                        </div>
+
+                        <!-- Verified Region -->
+                        <div class="info-item">
+                            <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+                            <span>Tamil Nadu, India</span>
+                        </div>
+
+                        <!-- Professional Social Links -->
+                        <div class="social-links">
+                            <a href="https://github.com/anandh113" target="_blank" rel="noopener" class="social-btn"
+                                aria-label="Anandh's GitHub Profile" title="GitHub"><i
+                                    class="fa-brands fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/anandh-v-b95a47295/" target="_blank" rel="noopener"
+                                class="social-btn" aria-label="Anandh's LinkedIn Profile" title="LinkedIn"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+                            <a href="mailto:anandhvenkatesh123@gmail.com" class="social-btn"
+                                aria-label="Send Direct Email to Anandh" title="Direct Email"><i
+                                    class="fa-solid fa-envelope"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form with EmailJS Integration -->
+                    <form class="glass-card contact-form" id="contactForm" novalidate aria-label="Contact Form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required placeholder=" " autocomplete="name">
+                            <label for="name">Your Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required placeholder=" " autocomplete="email">
+                            <label for="email">Your Email Address</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder=" " autocomplete="off">
+                            <label for="subject">Subject</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" required placeholder=" "></textarea>
+                            <label for="message">Your Message</label>
+                        </div>
+                        <!-- Honeypot Field for Spam Prevention (Hidden from human visitors) -->
+                        <div style="display: none !important;" aria-hidden="true">
+                            <input type="text" name="_gotcha" id="contactHoneypot" tabindex="-1" autocomplete="off">
+                        </div>
+                        <button type="submit" class="btn btn-primary magnetic-btn full-width" id="contactSubmitBtn">
+                            Send Message <i class="fa-solid fa-paper-plane"></i>
+                        </button>
+                        <p class="form-disclaimer">
+                            <i class="fa-solid fa-circle-info"></i> Your message will be sent directly to Anandh's inbox.
+                        </p>
+                        <div class="form-status-message" id="formStatusMessage" role="alert" aria-live="polite"></div>
+                    </form>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <p>© 2026 Anandh V. Computer Science Engineering Student.</p>
+    </footer>
+
+    <!-- Accessible Project Case Study Modal -->
+    <div class="modal-backdrop" id="projectModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <div class="modal-dialog">
+            <div class="modal-header">
+                <div class="modal-title-group">
+                    <div class="modal-badge-row">
+                        <span class="modal-category-badge" id="modalCategory">Category</span>
+                    </div>
+                    <h3 id="modalTitle">Project Title</h3>
+                    <p class="modal-subtitle" id="modalSubtitle">Project Subtitle</p>
+                </div>
+                <button class="modal-close-btn" id="modalCloseBtn" aria-label="Close Case Study Dialog">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+
+            <div class="modal-body modal-case-body">
+                <img src="" alt="" id="modalHeroImg" class="case-study-hero-img" style="display: none;">
+                <div id="modalGraphic" class="project-graphic-placeholder"
+                    style="margin-bottom: 20px; border-radius: 10px; display: none;">
+                    <i class="project-graphic-icon"></i>
+                    <span class="project-graphic-title"></span>
+                </div>
+
+                <div class="case-grid">
+                    <div class="case-card">
+                        <h4><i class="fa-solid fa-circle-exclamation"></i> Problem Statement</h4>
+                        <p id="modalProblem"></p>
+                    </div>
+                    <div class="case-card">
+                        <h4><i class="fa-solid fa-bullseye"></i> Engineering Objective</h4>
+                        <p id="modalObjective"></p>
+                    </div>
+                    <div class="case-card full-col">
+                        <h4><i class="fa-solid fa-sitemap"></i> System Architecture & Pipeline</h4>
+                        <p id="modalArchitecture"></p>
+                    </div>
+                    <div class="case-card full-col">
+                        <h4><i class="fa-solid fa-cubes"></i> Implemented Modules & Features</h4>
+                        <ul id="modalModules"></ul>
+                    </div>
+                    <div class="case-card">
+                        <h4><i class="fa-solid fa-user-gear"></i> Anandh's Contribution</h4>
+                        <p id="modalContribution"></p>
+                    </div>
+                    <div class="case-card">
+                        <h4><i class="fa-solid fa-triangle-exclamation"></i> Technical Challenges Solved</h4>
+                        <p id="modalChallenges"></p>
+                    </div>
+                </div>
+
+                <div style="margin-top: 16px;">
+                    <h4 style="font-size: 0.92rem; margin-bottom: 8px; color: var(--text-secondary);">Technologies Used:
+                    </h4>
+                    <div class="tech-tags" id="modalTags"></div>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <a href="#" target="_blank" rel="noopener" class="btn btn-glass btn-sm" id="modalGithubBtn"
+                    style="display: none;"><i class="fa-brands fa-github"></i> Code Repository</a>
+                <a href="#" target="_blank" rel="noopener" class="btn btn-primary btn-sm" id="modalDemoBtn"
+                    style="display: none;"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Full-Size Certificate Viewer Modal -->
+    <div class="modal-backdrop" id="certModal" role="dialog" aria-modal="true" aria-labelledby="certViewerTitle">
+        <div class="modal-dialog" style="max-width: 720px;">
+            <div class="modal-header">
+                <div>
+                    <h3 id="certViewerTitle">Certificate Title</h3>
+                    <p class="modal-subtitle" id="certViewerIssuer">Issuing Organization</p>
+                </div>
+                <button class="modal-close-btn" id="certCloseBtn" aria-label="Close Certificate Dialog">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+            <div class="modal-body" style="text-align: center;">
+                <img src="" alt="Full Certificate Image Preview" id="certViewerImg" class="cert-viewer-img">
+            </div>
+        </div>
+    </div>
+
+    <!-- JS Libraries (Preserving existing GSAP, ScrollTrigger, Typed, VanillaTilt, Particles) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+    <!-- EmailJS Official Browser SDK -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <!-- Core Portfolio Application Logic -->
+    <script type="module" src="js/main.js"></script>
+</body>
+
+</html>
